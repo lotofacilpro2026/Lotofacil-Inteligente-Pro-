@@ -1,0 +1,30 @@
+{
+  "id": "./",
+  "name": "Lotofácil Inteligente Pro",
+  "short_name": "Lotofácil Pro",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#07130f",
+  "theme_color": "#0b2119",
+  "description": "Gerador de combinações, análise histórica, conferência, backtesting e controle de gastos da Lotofácil.",
+  "categories": [
+    "utilities",
+    "finance"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

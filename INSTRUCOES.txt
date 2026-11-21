@@ -1,0 +1,41 @@
+LOTOfácil INTELIGENTE PRO — VERSÃO 2.0
+
+O QUE ESTA VERSÃO INCLUI
+- Interface adaptada para celular, com identidade visual verde e dourada.
+- Gerador de 2, 5, 10 ou 20 jogos, com filtros e diversificação.
+- Estatísticas de frequência dos concursos cadastrados.
+- Cadastro manual de resultados e tentativa de consulta ao serviço usado pelo portal da CAIXA.
+- Conferência individual e em lote.
+- Backtesting: compara os jogos salvos com todos os concursos cadastrados e mostra o melhor desempenho e contagem de 11 a 15 acertos.
+- Controle de gastos com apostas e registro de prêmios.
+- Backup e restauração dos dados em JSON.
+- PWA com manifesto, ícones, instalação na tela inicial e cache offline.
+- Migração automática dos dados locais da versão anterior (quando disponíveis no mesmo navegador).
+
+COMO INSTALAR NO ANDROID
+O pacote é um aplicativo web instalável (PWA), não um APK. Para a instalação PWA funcionar, o site precisa estar publicado em HTTPS.
+
+PUBLICAÇÃO GRATUITA PELO GITHUB PAGES
+1. Em um computador ou navegador, entre em https://github.com e crie uma conta, se necessário.
+2. Crie um repositório público chamado lotofacil-inteligente-pro.
+3. Envie para a raiz do repositório os arquivos: index.html, manifest.json, sw.js, icon-192.png e icon-512.png.
+4. Abra Settings > Pages.
+5. Em Build and deployment selecione Deploy from a branch, branch main e pasta /(root), depois salve.
+6. Aguarde a publicação. O endereço terá o formato:
+   https://SEU-USUARIO.github.io/lotofacil-inteligente-pro/
+7. No Android, abra esse endereço no Google Chrome.
+8. Toque no menu ⋮ e escolha “Instalar app” ou “Adicionar à tela inicial”.
+9. Depois de instalado, o ícone Lotofácil Pro aparecerá na tela inicial.
+
+IMPORTANTE SOBRE A INSTALAÇÃO
+- Não é possível concluir a publicação no GitHub nem instalar no seu celular sem acesso à sua conta e uma ação no próprio aparelho.
+- O botão “Instalar no celular” funciona quando o navegador oferece o recurso de instalação; caso contrário, mostra o caminho pelo menu do Chrome.
+- Os dados ficam armazenados localmente no navegador/aplicativo. Faça backups periódicos.
+- Para receber atualizações do app, abra-o conectado à internet após a nova versão ser publicada.
+
+RESULTADOS E PROBABILIDADES
+A consulta automática tenta acessar um serviço utilizado pelo portal de loterias, mas não é uma API pública garantida. Ela pode falhar por CORS ou mudanças no serviço. Nesse caso, cadastre o resultado manualmente e confirme no portal oficial.
+Resultados passados não preveem sorteios futuros. Cada combinação simples de 15 dezenas tem a mesma probabilidade matemática de acertar 15 números: 1 em 3.268.760. Filtros, frequência e backtesting não elevam essa probabilidade.
+
+APK ANDROID
+Para gerar um APK instalável diretamente, é necessário empacotar o site publicado em uma Trusted Web Activity e assinar o aplicativo Android. Esse processo depende do endereço HTTPS definitivo e de uma chave de assinatura. Este ZIP deixa a PWA pronta para publicação e instalação pelo Chrome.
