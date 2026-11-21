@@ -1,4 +1,4 @@
-LOTOfácil INTELIGENTE PRO — VERSÃO 2.0
+LOTOfácil INTELIGENTE PRO — VERSÃO 2.1 (PLANOS EM PREPARAÇÃO)
 
 O QUE ESTA VERSÃO INCLUI
 - Interface adaptada para celular, com identidade visual verde e dourada.
@@ -39,3 +39,14 @@ Resultados passados não preveem sorteios futuros. Cada combinação simples de 
 
 APK ANDROID
 Para gerar um APK instalável diretamente, é necessário empacotar o site publicado em uma Trusted Web Activity e assinar o aplicativo Android. Esse processo depende do endereço HTTPS definitivo e de uma chave de assinatura. Este ZIP deixa a PWA pronta para publicação e instalação pelo Chrome.
+
+
+MONETIZAÇÃO — VERSÃO 2.1
+- A tela Planos apresenta Free e Premium por R$ 4,90/mês.
+- O botão de assinatura é demonstrativo: ainda não realiza cobrança.
+- O espaço de publicidade é apenas um marcador visual; anúncios ainda não estão integrados.
+- Não ative cobrança nem prometa acesso Premium até integrar um provedor de pagamentos e validar o status da assinatura em servidor seguro.
+- Não coloque chaves secretas, tokens ou credenciais no index.html.
+- Antes de inserir anúncios, confirme que a rede de anúncios aceita o conteúdo e o uso pretendido do aplicativo.
+- Antes de vender, publique termos de uso, política de privacidade, política de cancelamento/reembolso e canal de suporte.
+- A versão atual armazena dados no aparelho; ela ainda não possui login, banco de dados central ou validação segura de assinantes.
