@@ -65,4 +65,4 @@ jobs:
             git push
           else
             echo "Nenhuma alteração no resultado."
-          fi
+          f1
