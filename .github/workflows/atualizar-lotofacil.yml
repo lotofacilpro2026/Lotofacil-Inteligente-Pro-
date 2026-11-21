@@ -66,4 +66,3 @@ jobs:
           else
             echo "Nenhuma alteração no resultado."
           fi
-
